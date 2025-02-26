@@ -1,8 +1,8 @@
-# Portfolio (Still Working on the responsiveness & other features)
-Tech Stack: **Just TailwindCss and JS**
-<br>
-Live Preview : [Click Here](https://my-portfolio-msss.netlify.app)
-
+  **Portfolio** (Still Working on the responsiveness & other features)
+    Tech Stack: **Just TailwindCss and JS**
+    <br>
+  Live Preview : [Click Here](https://my-portfolio-msss.netlify.app)
+  
 
 
 ![image](https://github.com/user-attachments/assets/427dd82c-01eb-4b0b-91be-a2f358b134f1)
