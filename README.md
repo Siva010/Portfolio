@@ -1,5 +1,5 @@
 # Portfolio
-Just TailwindCss and JS
+**Just TailwindCss and JS**
 
 ![image](https://github.com/user-attachments/assets/427dd82c-01eb-4b0b-91be-a2f358b134f1)
 
