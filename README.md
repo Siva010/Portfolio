@@ -1,7 +1,7 @@
 # Portfolio
-**Just TailwindCss and JS**
+Tech Stack: **Just TailwindCss and JS**
 <br>
---Live Preview : [Click Here](https://my-portfolio-msss.netlify.app)
+Live Preview : [Click Here](https://my-portfolio-msss.netlify.app)
 
 
 
