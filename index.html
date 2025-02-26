@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="/images/logo.png" class="filter invert" />
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi, I'm <span>M Siva</span><br><p>Full Stack Web Developer </p></h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Aspiring Full-Stack Developer | Passionate About Crafting Unique Web Experiences | Exploring AI & Cloud Technologies .</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('hard-skills')">Hard Skills</p>
+                    <p class="tab-links" onclick="opentab('soft-skills')">Soft Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="hard-skills">
+                    <ul>
+                        <li ><span id="hs">•Full Stack Web Developer </span>
+                            <p> &nbsp; MEAN and MERN Stack </p>
+                        </li>
+                        <li ><span id="hs">•Artificial Intelligence (AI) Engineer</span><br>&nbsp; TensorFlow, Pytorch </li>
+                      
+                    </ul>
+                </div>
+                <div class="tab-contents" id="soft-skills">
+                    <ul>
+                        <li><span>Communcation</span></li>
+                        <li><span>Problem Solving</span></li>
+                        <li><span>Leader Ship</span><br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-2026 ~ &nbsp;[B. Tech in Computer Science and Engineering]</span><br>&nbsp;CR Reddy College of Engineering, Eluru, Andhra Pradesh</li>
+                        <li><span>2020-2022 ~&nbsp;[Higher Secondary Education in PCM]</span><br>&nbsp;Sri Chaitanya Jr.College</li>
+                        <li><span>2020 ~&nbsp;[High School]</span><br>&nbsp;Sri Chaitanya Techno School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Domains & Interests </h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2 > <strong>Full Stack Web Development</strong>
+                    
+                </h2>
+                <p>
+                    I am a <strong>Full Stack Developer</strong> with experience in: <br>
+                    • <strong>JavaScript</strong> <br>
+                    • <strong>HTML & CSS</strong> <br>
+                    • <strong>React JS</strong> <br>
+                    • <strong>Angular JS</strong> <br>
+                    • <strong>Node JS</strong> <br>
+                    • <strong>Express</strong> <br>
+                    • <strong>Spring Boot</strong> <br>
+                    • <strong>Django</strong> <br>
+                    <strong> </strong>
+                </p>                
+                
+
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2><strong>AI Engineering</strong></h2>
+                <p>
+                    <strong>Also a AI Engineer</strong> with experience in: <br>
+                    • <strong>Python</strong> <br>
+                    • <strong>Machine Learning</strong> <br>
+                    • <strong>Deep Learning</strong> <br>
+                    • <strong>Natural Language Processing (NLP)</strong> <br>
+                    • <strong>Computer Vision</strong> <br>
+                    • <strong>TensorFlow & PyTorch</strong> <br>
+                    • <strong>Pandas, NumPy, Matplotlib</strong> <br>
+                    • <strong>Data Science & Big Data</strong> <br>
+                    • <strong>Cloud AI Services (AWS, GCP, Azure)</strong>
+                </p>
+                
+            </div>
+      
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Main Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Students Attendance</h3>
+                    <p id = "inside">Dashboard of the attendance of students and visualise, manage attendance</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Voting Online</h3>
+                    <p id = "inside">Create Polls / Join Polls Locally or Globally of Different Categories </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Journaling Web App</h3>
+                    <p id = "inside">Write about your day or an experience and present it to the world or make it personal</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Siva010" class="btn">See more in my GitHub</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> Email : ms.ivas010@gmail.com</p>
+    
+                <div>
+                     <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+            </div>
+    </div>
+    <div class="copyright">
+        <p>End of the portfolio</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
