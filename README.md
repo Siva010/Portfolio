@@ -1,6 +1,6 @@
   **Portfolio** (Still Working on the responsiveness & other features)
     <br>
-    Tech Stack: **Just TailwindCss and Inline JS**
+    Tech Stack: **CSS and Inline JS**
     <br>
   Live Preview : [Click Here](https://my-portfolio-msss.netlify.app)
   
